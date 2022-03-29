@@ -8,3 +8,6 @@ contributions 화면에서 잔디밭 위에 contribution settings 가 있는데 
 보니까 ref/remotes/origin/master는 따로 있고
 아니지 ref/remotes/heads/origin/master는 있는데 위에 경로에는 master가 없어서 cp로 복사해줌.
 이래도 안됨 ㅋㅋㅋㅋ
+에거님이 root계정으로 계속 commit하고 있던거라고 하셔서
+터미널에 sudo chown -R itto:itto ~/폴더
+라고 쳐라고 해보셨다.
