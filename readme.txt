@@ -11,3 +11,4 @@ contributions 화면에서 잔디밭 위에 contribution settings 가 있는데 
 에거님이 root계정으로 계속 commit하고 있던거라고 하셔서
 터미널에 sudo chown -R itto:itto ~/폴더
 라고 쳐라고 해보셨다.
+음.. sudo commit을 해서 그런건 아닐까?
