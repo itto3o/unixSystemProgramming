@@ -5,3 +5,5 @@
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ이유를 알았다.
 contributions 화면에서 잔디밭 위에 contribution settings 가 있는데 거기에서 private를 체크를 해야했던 것이다..
 아놔... 이제부턴 그냥 다 public으로 만들고 계정만 조심하면 될 것 같다..
+보니까 ref/remotes/origin/master는 따로 있고
+아니지 ref/remotes/heads/origin/master는 있는데 위에 경로에는 master가 없어서 cp로 복사해줌..
