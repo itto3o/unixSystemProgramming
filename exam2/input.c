@@ -20,8 +20,8 @@ int main(int argc, char* argv[]) {
 	for(int i = 0; i < number; i++) {
 		printf("이름과 나이?(0%d)", i+1);
 		scanf("%s %d", info[i].name, &(info[i].age));
-		fprintf(fp, "%s\t%d", info[i].name, info[i].age);
-		//fwrite(&info[i], sizeof(info[i]), 1, fp);
+		//fprintf(fp, "%s\t%d", info[i].name, info[i].age);
+		fwrite(&info[i], sizeof(info[i]), 1, fp);
 	}
 	
 	fclose(fp);

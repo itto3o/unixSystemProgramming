@@ -14,13 +14,10 @@ int main(int argc, char* argv[]) {
 	printf("Name\tAge\n");
 	
 	int n;
-	int age;
-	char name[10];
+	struct info infomember;
 	
-	int i = 0;
-	while((n = fscanf(fp, "%s %d", name, &age)) != EOF) {
-		printf("%s\t%d\n", name, age);
-		i++;
+	while((n = fread(&infomember, sizeof(infomember), 1, fp)) > 0) {
+		printf("%s\t%d\n", infomember.name, infomember.age);
 	}
 
 	fclose(fp);
