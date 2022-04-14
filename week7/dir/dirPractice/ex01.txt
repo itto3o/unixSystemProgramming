@@ -1,0 +1,1 @@
+sprintf(path, "%s/%s", argv[1], dent_>d_name)이 key래
